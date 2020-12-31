@@ -1,12 +1,13 @@
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Quattrocento', serif;
   background-color: #fcba7c;
 }
 
 header {
   padding: 20px;
   font-size: 35px;
-  color: #777ea3;
+  font-weight: 700;
+  color: #333855;
   text-align: center
 }
 
@@ -18,7 +19,7 @@ header {
 } */
 
 div {
-  color: #777ea3;
+  color: #333855;
 }
 
 .center {
