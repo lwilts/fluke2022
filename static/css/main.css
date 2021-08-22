@@ -11,13 +11,6 @@ header {
   text-align: center
 }
 
-/* h3 {
-  padding: 0px;
-  padding-top: 5px;
-  border: 0px;
-  margin: 0px;
-} */
-
 div {
   color: #151724;
 }
@@ -44,10 +37,6 @@ div {
   padding:10px;
 }
 
-.active {
-  background-color: #799dd4;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -55,10 +44,6 @@ ul {
   overflow: hidden;
   background-color: #8eb7f3;
 }
-
-/* li {
-  float: left;
-} */
 
 li a {
   display: inline;
