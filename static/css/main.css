@@ -57,6 +57,11 @@ li a:hover {
   background-color: #759dda;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 * { 
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
