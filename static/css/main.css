@@ -28,6 +28,7 @@ div {
   padding: 10px;
   text-align: center
 }
+
 .center {
   margin: auto;
   max-width: 400px;
@@ -41,6 +42,10 @@ div {
 .nav a{
   display:inline-block;
   padding:10px;
+}
+
+.active {
+  background-color: #799dd4;
 }
 
 ul {
