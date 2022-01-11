@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fluke2022-deployment
+  labels:
+    app: fluke2022
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fluke2022
+  template:
+    metadata:
+      labels:
+        app: fluke2022
+    spec:
+      containers:
+      - name: fluke2022
+        image: fluke2022
+        ports:
+        - containerPort: 80
+        imagePullPolicy: Never
+        env:
+        - name: PORT
+          value: "80"
