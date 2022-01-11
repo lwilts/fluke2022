@@ -15,5 +15,13 @@ def details():
 def registry():
     return render_template("registry.html")
 
+@app.route("/gallery/")
+def gallery():
+    return render_template("gallery.html")
+
+@app.route("/rsvp/")
+def rsvp():
+    return render_template("rsvp.html")
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
