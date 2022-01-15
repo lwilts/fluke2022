@@ -23,5 +23,13 @@ def gallery():
 def rsvp():
     return render_template("rsvp.html")
 
+@app.route("/travel/")
+def travel():
+    return render_template("travel.html")
+
+@app.route("/eatingdrinking/")
+def eatingdrinking():
+    return render_template("eatingdrinking.html")
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
