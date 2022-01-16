@@ -31,5 +31,9 @@ def travel():
 def eatingdrinking():
     return render_template("eatingdrinking.html")
 
+@app.route("/weddingparty/")
+def weddingparty():
+    return render_template("weddingparty.html")
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
