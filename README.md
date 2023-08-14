@@ -1,6 +1,6 @@
 # fluke2022
 Just another wedding website.
-[fluke2022.uk](https://fluke2022.uk) (expired)
+[fluke2022.uk](https://fluke2022-x2o6imwbma-ew.a.run.app)
 
 ## Local testing
 `docker build -t fluke2022 . && docker run -d --name fluke2022 -p 8080:8080 -e PORT=8080 fluke2022`
